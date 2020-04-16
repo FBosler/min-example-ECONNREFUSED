@@ -1,0 +1,15 @@
+{
+  "name": "fb-test-minimal-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd server && yarn nodemon index.js\" \"cd client && yarn start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
